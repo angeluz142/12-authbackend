@@ -1,0 +1,10 @@
+{
+    "version": 2,
+    "name": "12-authbackend",
+    "builds": [
+       { "src": "app.js", "use": "@vercel/node" }
+    ],
+    "routes": [
+       { "src": "/(.*)", "dest": "/app.js" }
+    ]
+ }
